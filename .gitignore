@@ -1,0 +1,51 @@
+# ─── Node / Frontend ──────────────────────────────────────
+node_modules/
+dist/
+build/
+.npm/
+*.tsbuildinfo
+
+# ─── Python / Backend ─────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+*.egg-info/
+*.egg
+
+# ─── Environment Variables (secrets) ──────────────────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ─── OS Files ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ─── IDE / Editors ────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ─── Logs ─────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ─── Build / Cache ────────────────────────────────────────
+.cache/
+.parcel-cache/
+.vercel/
+.output/
